@@ -4,4 +4,4 @@ data = pd.read_csv('titanic.csv')
 
 data['FamilySize'] = data['SibSp'] + data['Parch'] + 1
 
-print(data[data['PassengerId']==888]['FamilySize'])
+print(data[data['PassengerId']==889]['FamilySize'])
